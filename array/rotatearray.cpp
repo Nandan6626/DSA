@@ -17,7 +17,7 @@ int main() {
     int k = 3;
     Solution obj;
     obj.rotate(nums, k);
-    cout << "Rotated array: ";
+    cout << "Rotated array:";
     for(int i = 0; i < nums.size(); i++){
         cout << nums[i] << " ";}
     return 0;
